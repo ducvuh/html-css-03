@@ -426,7 +426,7 @@ a {
 
 /* Member */
 .member {
-  padding: 85px 0;
+  padding-top: 85px;
   text-align: center;
 }
 
@@ -448,7 +448,7 @@ a {
 }
 
 .member-item:hover .member-item__-thumb {
-  transform: scale(1.2);
+  transform: scale(1.1)
 }
 
 .member-item__img-bg {
@@ -511,4 +511,47 @@ a {
 
 .member__control-next-icon {
   rotate: 180deg;
+}
+
+/* Install */
+.install {
+  margin-top: 265px;
+  padding-bottom: 85px;
+}
+
+.install_inner {
+  display: flex;
+  justify-content: space-between;
+  background: #2E80CE;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 70px;
+}
+
+.install__img {
+  display: block;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  margin-top: -95px;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+  color: #fff;
+}
+
+.install__heading {
+  max-width: 489px;
+  margin-bottom: 18px;
+}
+
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
 }
